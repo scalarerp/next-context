@@ -1,13 +1,13 @@
-import "../styles/globals.scss";
+import '../styles/globals.scss'
 // import 'tailwindcss/tailwind.css'
-import { TasksProvider } from "../context/TasksContext";
+import { TasksProvider } from '../context/TasksContext'
 
 function MyApp({ Component, pageProps }) {
   return (
     <TasksProvider>
       <Component {...pageProps} />
     </TasksProvider>
-  );
+  )
 }
 
-export default MyApp;
+export default MyApp

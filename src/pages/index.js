@@ -1,11 +1,11 @@
-import React from "react";
-import { useTasks } from "../context/TasksContext";
-import Layout from "../components/Layout";
+import React from 'react'
+import { useTasks } from '../context/TasksContext'
+import Layout from '../components/Layout'
 
-import { VscTrash, VscTasklist } from "react-icons/vsc";
+import { VscTrash, VscTasklist } from 'react-icons/vsc'
 
 function Home() {
-  const { tasks, deleteTask, goto } = useTasks();
+  const { tasks, deleteTask, goto } = useTasks()
 
   return (
     <Layout>
@@ -30,8 +30,8 @@ function Home() {
                     <button
                       className="bg-red-700 hover:bg-red-600 px-3 py-1 inline-flex items-center"
                       onClick={(e) => {
-                        e.stopPropagation();
-                        deleteTask(task.id);
+                        e.stopPropagation()
+                        deleteTask(task.id)
                       }}
                     >
                       <VscTrash className="mr-2" /> Delete
@@ -46,7 +46,7 @@ function Home() {
         )}
       </div>
     </Layout>
-  );
+  )
 }
 
-export default Home;
+export default Home

@@ -47,7 +47,6 @@ module.exports = {
   plugins: [
     // require('@tailwindcss/line-clamp'),
     // line clamp: >  https://www.youtube.com/watch?v=klh-jMTm5PU&ab_channel=TailwindLabs
-
     // require('@tailwindcss/typography'),
     // require('daisyui'),
   ],
