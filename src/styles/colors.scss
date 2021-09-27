@@ -1,0 +1,52 @@
+:root {
+  --rounded-box: 1rem;
+  --rounded-btn: 0.5rem;
+  --rounded-badge: 9999px;
+
+  --animation-btn: 0.25s;
+  --animation-input: 0.4s;
+
+  --padding-card: 2rem;
+
+  --btn-text-case: uppercase;
+  --navbar-padding: 0.5rem;
+  --border-btn: 1px;
+
+  --focus-ring: 2px;
+  --focus-ring-offset: 2px;
+}
+
+:root.light {
+  --color-brand: crimson;
+  --bg-primary: #fcfcfc;
+  --bg-primary-rgb: 254, 254, 254;
+  --bg-secondary: #eee;
+  --bg-inset: #eff0f5;
+  --border-primary: rgba(65, 67, 78, 0.16);
+  --text-primary: #050505;
+  --text-secondary: #2f3037;
+  --text-tertiary: #525560;
+  --text-quaternary: #686b78;
+  --text-placeholder: rgba(82, 85, 96, 0.5);
+  --text-on-primary: #fbfbfc;
+  --text-link: #007aff;
+  --text-link-rgb: 0, 122, 255;
+}
+
+:root.dark {
+  --color-brand: rgb(20, 220, 220);
+
+  --bg-primary: #050505;
+  --bg-primary-rgb: 5, 5, 5;
+  --bg-secondary: #151617;
+  --bg-inset: #151617;
+  --border-primary: rgba(255, 255, 255, 0.12);
+  --text-primary: #fbfbfc;
+  --text-secondary: #dedfe5;
+  --text-tertiary: #a9abb6;
+  --text-quaternary: #9094a6;
+  --text-placeholder: rgba(145, 148, 161, 0.5);
+  --text-on-primary: #050505;
+  --text-link: #ff9500;
+  --text-link-rgb: 255, 149, 0;
+}
