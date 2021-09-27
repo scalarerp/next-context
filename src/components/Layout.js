@@ -1,16 +1,16 @@
-import Link from "next/link";
-import { useTasks } from "../context/TasksContext";
-import { AiOutlinePlus } from "react-icons/ai";
+import Link from 'next/link'
+import { useTasks } from '../context/TasksContext'
+import { AiOutlinePlus } from 'react-icons/ai'
 
 const Layout = ({ children }) => {
-  const { tasks, goto } = useTasks();
+  const { tasks, goto } = useTasks()
 
   return (
     <div className="h-screen bg-gray-900 text-white">
       <header className="flex items-center bg-gray-800 px-28 py-5">
         <Link href="/">
           <a>
-            <h1 className="font-black text-lg">Task App</h1>
+            <h1 className="font-black text-lg">Task App Inicio</h1>
           </a>
         </Link>
 
@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
 
       <main className="h-5/6 px-28 py-10">{children}</main>
     </div>
-  );
-};
+  )
+}
 
-export default Layout;
+export default Layout
