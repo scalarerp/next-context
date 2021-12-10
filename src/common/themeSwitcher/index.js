@@ -1,5 +1,5 @@
 import { HiSun, HiMoon } from 'react-icons/hi'
-import { RiHome2Fill, RiUser3Fill } from 'react-icons/ri'
+
 import { useTheme } from 'next-themes'
 
 function ThemeSwitcher() {

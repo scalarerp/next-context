@@ -1,21 +1,29 @@
-import Link from 'next/link'
+// import Link from 'next/link'
 import React from 'react'
-import { FaSearchDollar, FaBars, FaSearch, FaMoon } from 'react-icons/fa'
+import { FaSearchDollar } from 'react-icons/fa'
 import ThemeSwitcher from 'common/themeSwitcher'
 
 import styles from './index.module.scss'
 
 const Header = () => {
-    console.log(styles)
+    // let menu = document.querySelector("#menu-btn");
+    // let navbar = document.querySelector(".header .navbar");
 
-    const [open, setOpen] = React.useState(false)
+    // menu.onclick = () => {
+    //   menu.classList.toggle("fa-times");
+    //   navbar.classList.toggle("active");
+    // };
+    const [open, setOpen] = React.useState(true)
     return (
-        <header className="header bg">
-            <a href="#" className="logo">
-                <FaSearchDollar />
+        <header className={styles.header}>
+            <a href="#" className={styles.logo}>
+                se
+                <i>
+                    <FaSearchDollar />
+                </i>
             </a>
 
-            <nav className={`${open ? 'active' : ''} nav`}>
+            <nav className={`${styles.nav}   ${open ? styles.active : ''}`}>
                 <button
                     aria-label={open ? 'fechar menu' : 'abrir menu'}
                     title={open ? 'fechar menu' : 'abrir menu'}
@@ -35,11 +43,11 @@ const Header = () => {
                     <a href="#reviews">reviews</a>
                     <a href="#contact">contact</a>
                 </div>
+
+                <ThemeSwitcher />
             </nav>
 
-            <div id="theme-btn">
-                <ThemeSwitcher />
-            </div>
+            <div id="theme-btn"></div>
 
             <div className="scroll-indicator"></div>
         </header>

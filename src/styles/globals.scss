@@ -70,14 +70,3 @@ a {
         @apply dark:text-black text-white;
     }
 }
-:root {
-    --red: #fa4f09;
-    --black: #333;
-    --white: #fff;
-    --light-color: #666;
-    --light-bg: #eee;
-}
-.heading span {
-    color: var(--red);
-}
-
