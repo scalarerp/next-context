@@ -1,25 +1,20 @@
 import Link from 'next/link'
-import './style.module.scss'
 import React from 'react'
 import { FaSearchDollar, FaBars, FaSearch, FaMoon } from 'react-icons/fa'
 import ThemeSwitcher from 'common/themeSwitcher'
 
-const Header = () => {
-    // let menu = document.querySelector("#menu-btn");
-    // let navbar = document.querySelector(".header .navbar");
+import styles from './index.module.scss'
 
-    // menu.onclick = () => {
-    //   menu.classList.toggle("fa-times");
-    //   navbar.classList.toggle("active");
-    // };
+const Header = () => {
+    console.log(styles)
+
     const [open, setOpen] = React.useState(false)
     return (
-        <header className="header">
+        <header className="header bg">
             <a href="#" className="logo">
-                se
-                <i>
-                    <FaSearchDollar />
-                </i>
+                  
+                        <FaSearchDollar />
+              
             </a>
 
             <nav className={`${open ? 'active' : ''} nav`}>
@@ -34,7 +29,7 @@ const Header = () => {
                 >
                     <span className="hamburger"></span>
                 </button>
-                <div className="menu" role="menu">
+                <div className={styles.menu} role="menu">
                     <a href="#home">home</a>
                     <a href="#services">services</a>
                     <a href="#work">work</a>
@@ -45,7 +40,7 @@ const Header = () => {
             </nav>
 
             <div id="theme-btn">
-                <ThemeSwitcher/>
+                <ThemeSwitcher />
             </div>
 
             <div className="scroll-indicator"></div>
