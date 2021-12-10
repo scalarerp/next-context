@@ -19,7 +19,9 @@ module.exports = {
             //     'Gilroy,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica Neue,Arial,sans-serif',
             // ],
         },
-        colors: {
+       
+        extend: {
+             colors: {
             // color scheme is defined in /app.css
             transparent: 'transparent',
             current: 'currentColor',
@@ -46,25 +48,10 @@ module.exports = {
                 yellow: 'var(--color-team-yellow)',
                 blue: 'var(--color-team-blue)',
                 red: 'var(--color-team-red)',
-            },
-            yellow: {
-                500: 'var(--color-yellow-500)',
-            },
-            blue: {
-                100: 'var(--color-blue-100)',
-                500: 'var(--color-blue-500)',
-            },
-            red: {
-                500: 'var(--color-red-500)',
-            },
-            green: {
-                100: 'var(--color-green-100)',
-                500: 'var(--color-green-500)',
-                600: 'var(--color-green-600)',
-            },
+            },         
         },
 
-        extend: {},
+        },
     },
     variants: {
         extend: {},

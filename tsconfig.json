@@ -20,7 +20,8 @@
     "baseUrl": "src",
     "allowSyntheticDefaultImports": true,
     "noFallthroughCasesInSwitch": true,
-    "downlevelIteration": true
+    "downlevelIteration": true,
+    "incremental": true
   },
   "exclude": [
     "node_modules"
