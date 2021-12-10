@@ -12,9 +12,7 @@ const Header = () => {
     return (
         <header className="header bg">
             <a href="#" className="logo">
-                  
-                        <FaSearchDollar />
-              
+                <FaSearchDollar />
             </a>
 
             <nav className={`${open ? 'active' : ''} nav`}>
