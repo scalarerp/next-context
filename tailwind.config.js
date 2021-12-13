@@ -29,7 +29,7 @@ module.exports = {
                 black: 'var(--color-black)',
 
                 primary: 'var(--color-red-500)',
-
+                brand: 'var(--brand)',
                 gray: {
                     100: 'var(--color-gray-100)',
                     200: 'var(--color-gray-200)',

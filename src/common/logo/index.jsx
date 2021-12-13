@@ -3,9 +3,9 @@ import { FaSearchDollar } from 'react-icons/fa'
 
 const AppLogo = () => {
     return (
-        <a href="#" className={`logo flex text-4xl`}>
+        <a href="#" className={`logo flex items-center text-4xl`}>
             se
-            <div className="text-[#fa4f09]">
+            <div className="text-brand">
                 <FaSearchDollar />
             </div>
         </a>
