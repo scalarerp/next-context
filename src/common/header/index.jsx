@@ -4,6 +4,7 @@ import { FaSearchDollar } from 'react-icons/fa'
 import ThemeSwitcher from 'common/themeSwitcher'
 
 import styles from './index.module.scss'
+import Link from 'next/link'
 
 const Header = () => {
     // let menu = document.querySelector("#menu-btn");
@@ -36,6 +37,7 @@ const Header = () => {
                     <span className="hamburger"></span>
                 </button>
                 <div className={styles.menu} role="menu">
+                    <Link href="/allcomponents">all</Link>
                     <a href="#home">home</a>
                     <a href="#services">services</a>
                     <a href="#work">work</a>

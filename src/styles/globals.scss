@@ -35,7 +35,7 @@ a {
     }
 
     .bg-primary {
-        @apply dark:bg-gray-900 bg-white;
+        @apply dark:bg-primary dark:text-yellow-500 bg-primary text-yellow-500;
     }
 
     .bg-secondary {

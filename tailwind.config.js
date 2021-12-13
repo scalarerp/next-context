@@ -1,10 +1,10 @@
 // https://github.com/kentcdodds/kentcdodds.com
 
-const path = require('path')
-const fromRoot = (p) => path.join(__dirname, p)
+// const path = require('path')
+// const fromRoot = (p) => path.join(__dirname, p)
 
-const colors = require('tailwindcss/colors')
-const defaultTheme = require('tailwindcss/defaultTheme')
+// const colors = require('tailwindcss/colors')
+// const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
     mode: process.env.NODE_ENV ? 'jit' : undefined,
@@ -27,6 +27,8 @@ module.exports = {
                 current: 'currentColor',
                 white: 'var(--color-white)',
                 black: 'var(--color-black)',
+
+                primary: 'var(--color-red-500)',
 
                 gray: {
                     100: 'var(--color-gray-100)',
