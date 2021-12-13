@@ -6,9 +6,8 @@ import '../styles/globals.scss'
 function MyApp({ Component, pageProps }) {
     return (
         <ThemeProvider attribute="class" defaultTheme="system">
-            <Header>
-                <Component {...pageProps} />
-            </Header>
+            <Header />
+            <Component {...pageProps} />
         </ThemeProvider>
     )
 }

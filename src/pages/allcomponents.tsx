@@ -3,7 +3,7 @@ import React from 'react'
 
 const components = () => {
     return (
-        <div>
+        <div className="mt-5">
             <Button>Button 1</Button>
             <Button border="border" padding="p-1">
                 Button 1

@@ -1,6 +1,5 @@
 import classNames from 'classnames'
 import { ButtonHTMLAttributes } from 'react'
-import { ButtonVariant, ButtonType } from 'common/ui/types'
 
 export type Props = ButtonHTMLAttributes<HTMLButtonElement> & {
     border?: 'border' | 'border-2' | 'border-4' | 'border-8'
@@ -12,8 +11,8 @@ export type Props = ButtonHTMLAttributes<HTMLButtonElement> & {
     active?: boolean
     block?: boolean
     classPrefix?: string
-    className?: ButtonVariant
-    type?: ButtonType
+    className?: string
+    type?: 'a' | 'button' | 'submit'
     disabled?: boolean
     children?: React.ReactNode
     // href?: string
