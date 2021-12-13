@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import styles from './index.module.scss'
 
@@ -18,52 +19,46 @@ const Nav = () => {
             </button>
             <ul className={`${styles.menu} sm:mt-0 mt-10`} role="menu">
                 <li>
-                    <a
-                        className="text-lg text-center font-poppins border-b-2 border-transparent hover:border-[#fa4f09] duration-300 hover:text-[#fa4f09] transform hover:-translate-y-1"
-                        href="#home"
+                    <div
+                        className="text-lg text-center font-poppins border-b-2
+                    border-transparent hover:border-brand duration-300
+                    hover:text-[#fa4f09] transform hover:-translate-y-1"
                     >
-                        home
-                    </a>
+                        <Link href="#home">home</Link>
+                    </div>
                 </li>
                 <li>
-                    <a
-                        className="text-lg text-center font-poppins border-b-2 border-transparent hover:border-[#fa4f09] duration-300 hover:text-[#fa4f09] transform hover:-translate-y-1"
-                        href="#services"
+                    <div
+                        className="text-lg text-center font-poppins border-b-2
+                    border-transparent hover:border-brand duration-300
+                    hover:text-[#fa4f09] transform hover:-translate-y-1"
                     >
-                        services
-                    </a>
+                        <Link href="#services">services</Link>
+                    </div>
                 </li>
                 <li>
-                    <a
-                        className="text-lg text-center font-poppins border-b-2 border-transparent hover:border-[#fa4f09] duration-300 hover:text-[#fa4f09] transform hover:-translate-y-1"
-                        href="#work"
+                    <div
+                        className="text-lg text-center font-poppins border-b-2
+                    border-transparent hover:border-[#fa4f09] duration-300
+                    hover:text-[#fa4f09] transform hover:-translate-y-1"
                     >
-                        work
-                    </a>
+                        <Link href="#work">work</Link>
+                    </div>
                 </li>
                 <li>
-                    <a
-                        className="text-lg text-center font-poppins border-b-2 border-transparent hover:border-[#fa4f09] duration-300 hover:text-[#fa4f09] transform hover:-translate-y-1"
-                        href="#pricing"
-                    >
-                        pricing
-                    </a>
+                    <div className="text-lg text-center font-poppins border-b-2 border-transparent hover:border-[#fa4f09] duration-300 hover:text-[#fa4f09] transform hover:-translate-y-1">
+                        <Link href="#pricing">pricing</Link>
+                    </div>
                 </li>
                 <li>
-                    <a
-                        className="text-lg text-center font-poppins border-b-2 border-transparent hover:border-[#fa4f09] duration-300 hover:text-[#fa4f09] transform hover:-translate-y-1"
-                        href="#reviews"
-                    >
-                        reviews
-                    </a>
+                    <div className="text-lg text-center font-poppins border-b-2 border-transparent hover:border-[#fa4f09] duration-300 hover:text-[#fa4f09] transform hover:-translate-y-1">
+                        <Link href="#reviews">reviews</Link>
+                    </div>
                 </li>
                 <li>
-                    <a
-                        className="text-lg text-center font-poppins border-b-2 border-transparent hover:border-[#fa4f09] duration-300 hover:text-[#fa4f09] transform hover:-translate-y-1"
-                        href="#contact"
-                    >
-                        contact
-                    </a>
+                    <div className="text-lg text-center font-poppins border-b-2 border-transparent hover:border-[#fa4f09] duration-300 hover:text-[#fa4f09] transform hover:-translate-y-1">
+                        <Link href="#contact">contact</Link>
+                    </div>
                 </li>
             </ul>
         </nav>
