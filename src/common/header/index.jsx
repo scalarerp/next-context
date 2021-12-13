@@ -1,7 +1,5 @@
-// import Link from 'next/link'
 import React from 'react'
 import { FaSearchDollar } from 'react-icons/fa'
-import ThemeSwitcher from 'common/themeSwitcher'
 
 import styles from './index.module.scss'
 
@@ -15,41 +13,77 @@ const Header = () => {
     // };
     const [open, setOpen] = React.useState(true)
     return (
-        <header className={styles.header}>
-            <a href="#" className={styles.logo}>
+        <header className={`${styles.header} border-b-2 border-gray-100`}>
+            <a href="#" className={`${styles.logo} flex text-4xl`}>
                 se
-                <i>
+                <div className="text-[#fa4f09]">
                     <FaSearchDollar />
-                </i>
+                </div>
             </a>
 
-            <nav className={`${styles.nav}   ${open ? styles.active : ''}`}>
+            <nav className={`${styles.nav} ${open ? `${styles.active}` : ''} `}>
                 <button
                     aria-label={open ? 'fechar menu' : 'abrir menu'}
                     title={open ? 'fechar menu' : 'abrir menu'}
-                    className="btn-mobile"
+                    className={styles.btnMobile}
                     aria-haspopup="true"
                     aria-controls="menu"
                     aria-expanded={open}
                     onClick={() => setOpen(!open)}
                 >
-                    <span className="hamburger"></span>
+                    <span className={styles.hamburger}></span>
                 </button>
-                <div className={styles.menu} role="menu">
-                    <a href="#home">home</a>
-                    <a href="#services">services</a>
-                    <a href="#work">work</a>
-                    <a href="#pricing">pricing</a>
-                    <a href="#reviews">reviews</a>
-                    <a href="#contact">contact</a>
-                </div>
-
-                <ThemeSwitcher />
+                <ul className={styles.menu} role="menu">
+                    <li>
+                        <a
+                            className="text-lg text-center font-poppins border-b-2 border-transparent hover:border-[#fa4f09] duration-300 hover:text-[#fa4f09] transform hover:-translate-y-1"
+                            href="#home"
+                        >
+                            home
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            className="text-lg text-center font-poppins border-b-2 border-transparent hover:border-[#fa4f09] duration-300 hover:text-[#fa4f09] transform hover:-translate-y-1"
+                            href="#services"
+                        >
+                            services
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            className="text-lg text-center font-poppins border-b-2 border-transparent hover:border-[#fa4f09] duration-300 hover:text-[#fa4f09] transform hover:-translate-y-1"
+                            href="#work"
+                        >
+                            work
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            className="text-lg text-center font-poppins border-b-2 border-transparent hover:border-[#fa4f09] duration-300 hover:text-[#fa4f09] transform hover:-translate-y-1"
+                            href="#pricing"
+                        >
+                            pricing
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            className="text-lg text-center font-poppins border-b-2 border-transparent hover:border-[#fa4f09] duration-300 hover:text-[#fa4f09] transform hover:-translate-y-1"
+                            href="#reviews"
+                        >
+                            reviews
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            className="text-lg text-center font-poppins border-b-2 border-transparent hover:border-[#fa4f09] duration-300 hover:text-[#fa4f09] transform hover:-translate-y-1"
+                            href="#contact"
+                        >
+                            contact
+                        </a>
+                    </li>
+                </ul>
             </nav>
-
-            <div id="theme-btn"></div>
-
-            <div className="scroll-indicator"></div>
         </header>
     )
 }

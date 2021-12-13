@@ -1,10 +1,10 @@
 // https://github.com/kentcdodds/kentcdodds.com
 
-const path = require('path')
-const fromRoot = (p) => path.join(__dirname, p)
+// const path = require('path')
+// const fromRoot = (p) => path.join(__dirname, p)
 
-const colors = require('tailwindcss/colors')
-const defaultTheme = require('tailwindcss/defaultTheme')
+// const colors = require('tailwindcss/colors')
+// const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
     mode: process.env.NODE_ENV ? 'jit' : undefined,
@@ -13,7 +13,7 @@ module.exports = {
     theme: {
         fontFamily: {
             // ...defaultTheme.fontFamily,
-            // sans: ['-apple-system', ...defaultTheme.fontFamily.sans],
+            poppins: ['Poppins'],
             // mono: ['Menlo,Monaco', ...defaultTheme.fontFamily.mono],
             // display: [
             //     'Gilroy,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica Neue,Arial,sans-serif',
