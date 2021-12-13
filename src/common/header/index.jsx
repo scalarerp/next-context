@@ -2,6 +2,7 @@ import React from 'react'
 import { FaSearchDollar } from 'react-icons/fa'
 
 import styles from './index.module.scss'
+import Link from 'next/link'
 
 const Header = () => {
     // let menu = document.querySelector("#menu-btn");

@@ -28,6 +28,8 @@ module.exports = {
                 white: 'var(--color-white)',
                 black: 'var(--color-black)',
 
+                primary: 'var(--color-red-500)',
+
                 gray: {
                     100: 'var(--color-gray-100)',
                     200: 'var(--color-gray-200)',
