@@ -1,14 +1,19 @@
+import Link from 'next/link'
 import React from 'react'
 import { FaSearchDollar } from 'react-icons/fa'
 
 const AppLogo = () => {
     return (
-        <a href="#" className={`logo flex items-center text-4xl`}>
-            se
-            <div className="text-brand">
-                <FaSearchDollar />
-            </div>
-        </a>
+        <div className={`logo flex items-center text-4xl`}>
+            <Link href="/">
+                <a className="flex">
+                    se
+                    <div className="text-brand">
+                        <FaSearchDollar />
+                    </div>
+                </a>
+            </Link>
+        </div>
     )
 }
 
