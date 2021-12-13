@@ -1,18 +1,24 @@
-export const navLinks = {
-    home: {
+export const navLinks: NavLink[] = [
+    {
         name: 'Inicio',
-        link: '/',
+        href: '/',
         className: '',
     },
-    about: {
+    {
         name: 'Sobre',
-        link: '/about',
+        href: '/about',
         className: '',
     },
 
-    contact: {
+    {
         name: 'Contato',
-        link: '/contact',
+        href: '/contact',
         className: '',
     },
+]
+
+export interface NavLink {
+    name: string
+    href: string
+    className: string
 }
