@@ -1,4 +1,3 @@
-import Header from 'common/header'
 import Head from 'next/head'
 
 import React from 'react'
@@ -13,7 +12,6 @@ function Index() {
                 />
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
             </Head>
-            <Header />
         </>
     )
 }
