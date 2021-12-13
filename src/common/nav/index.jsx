@@ -22,7 +22,7 @@ const Nav = () => {
                     <div
                         className="text-lg text-center font-poppins border-b-2
                     border-transparent hover:border-brand duration-300
-                    hover:text-[#fa4f09] transform hover:-translate-y-1"
+                    hover:text-brand transform hover:-translate-y-1"
                     >
                         <Link href="#home">home</Link>
                     </div>
@@ -31,7 +31,7 @@ const Nav = () => {
                     <div
                         className="text-lg text-center font-poppins border-b-2
                     border-transparent hover:border-brand duration-300
-                    hover:text-[#fa4f09] transform hover:-translate-y-1"
+                    hover:text-brand transform hover:-translate-y-1"
                     >
                         <Link href="#services">services</Link>
                     </div>
@@ -39,24 +39,24 @@ const Nav = () => {
                 <li>
                     <div
                         className="text-lg text-center font-poppins border-b-2
-                    border-transparent hover:border-[#fa4f09] duration-300
-                    hover:text-[#fa4f09] transform hover:-translate-y-1"
+                    border-transparent hover:border-brand duration-300
+                    hover:text-brand transform hover:-translate-y-1"
                     >
                         <Link href="#work">work</Link>
                     </div>
                 </li>
                 <li>
-                    <div className="text-lg text-center font-poppins border-b-2 border-transparent hover:border-[#fa4f09] duration-300 hover:text-[#fa4f09] transform hover:-translate-y-1">
+                    <div className="text-lg text-center font-poppins border-b-2 border-transparent hover:border-brand duration-300 hover:text-brand transform hover:-translate-y-1">
                         <Link href="#pricing">pricing</Link>
                     </div>
                 </li>
                 <li>
-                    <div className="text-lg text-center font-poppins border-b-2 border-transparent hover:border-[#fa4f09] duration-300 hover:text-[#fa4f09] transform hover:-translate-y-1">
+                    <div className="text-lg text-center font-poppins border-b-2 border-transparent hover:border-brand duration-300 hover:text-brand transform hover:-translate-y-1">
                         <Link href="#reviews">reviews</Link>
                     </div>
                 </li>
                 <li>
-                    <div className="text-lg text-center font-poppins border-b-2 border-transparent hover:border-[#fa4f09] duration-300 hover:text-[#fa4f09] transform hover:-translate-y-1">
+                    <div className="text-lg text-center font-poppins border-b-2 border-transparent hover:border-brand duration-300 hover:text-brand transform hover:-translate-y-1">
                         <Link href="#contact">contact</Link>
                     </div>
                 </li>
