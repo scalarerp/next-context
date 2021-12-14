@@ -72,4 +72,7 @@ a {
     .border-section {
         @apply dark:border-gray-700 border-gray-200;
     }
+    .bg-nav {
+        @apply dark:bg-navcolor bg-white;
+    }
 }

@@ -27,7 +27,7 @@ module.exports = {
                 current: 'currentColor',
                 white: 'var(--color-white)',
                 black: 'var(--color-black)',
-
+                navcolor: 'var(--dark-nav)',
                 primary: 'var(--color-red-500)',
                 brand: 'var(--brand)',
                 gray: {
