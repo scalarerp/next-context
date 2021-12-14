@@ -14,7 +14,7 @@ const Header = () => {
 
     return (
         <header
-            className={`header md:border-b-2 md:border-section flex items-center justify-between p-8 `}
+            className={`header md:border-b-2 md:border-section flex items-center justify-between p-8 fixed w-full bg-primary z-50`}
         >
             <AppLogo />
             <div className="flex items-center">
