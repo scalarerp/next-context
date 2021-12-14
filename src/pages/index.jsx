@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Index() {
-    return <></>
+    return <>wdewdqw</>
 }
 
 export default Index

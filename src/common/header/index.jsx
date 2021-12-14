@@ -14,7 +14,7 @@ const Header = () => {
 
     return (
         <header
-            className={`header border-b-2 border-section flex items-center justify-between p-8`}
+            className={`header md:border-b-2 md:border-section flex items-center justify-between p-8 `}
         >
             <AppLogo />
             <div className="flex items-center">

@@ -6,11 +6,11 @@ import styles from './index.module.scss'
 const Nav = () => {
     const [open, setOpen] = React.useState(true)
     return (
-        <nav className={`${styles.nav} ${open ? `${styles.active}` : ''}`}>
+        <nav className={`${styles.nav} ${open ? `${styles.active}` : ''} `}>
             <button
                 aria-label={open ? 'fechar menu' : 'abrir menu'}
                 title={open ? 'fechar menu' : 'abrir menu'}
-                className={`${styles.btnMobile}`}
+                className={`${styles.btnMobile} `}
                 aria-haspopup="true"
                 aria-controls="menu"
                 aria-expanded={open}
@@ -19,7 +19,7 @@ const Nav = () => {
                 <span className={styles.hamburger}></span>
             </button>
 
-            <ul className={`${styles.menu} sm:mt-0 mt-10`} role="menu">
+            <ul className={`${styles.menu} bg-nav md:mt-0 mt-2`} role="menu">
                 {/* <pre>{JSON.stringify(styles, null, 2)}</pre> */}
 
                 {navLinks.map((link) => {
