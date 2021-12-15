@@ -19,7 +19,7 @@ const MoonSvg = (props: svgProps): JSX.Element => {
                     attributeName="transform"
                     type="rotate"
                     from="0"
-                    to="360"
+                    to="-360"
                     dur="0.5s"
                     repeatCount="1"
                 />

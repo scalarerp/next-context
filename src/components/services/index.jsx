@@ -6,7 +6,7 @@ const Services = () => {
             <div className="container px-5 py-24 mx-auto">
                 <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
                     <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-brand">
-                        Our services
+                        Serviços
                     </h1>
                     <p className="lg:w-1/2 w-full leading-relaxed text-primary">
                         Whatever cardigan tote bag tumblr hexagon brooklyn
@@ -30,7 +30,7 @@ const Services = () => {
                                 </svg>
                             </div>
                             <h2 className="text-lg text-brand font-medium title-font mb-2">
-                                Shooting Stars
+                                Garantia de Resultado
                             </h2>
                             <p className="leading-relaxed text-base">
                                 Fingerstache flexitarian street art 8-bit waist
@@ -56,7 +56,7 @@ const Services = () => {
                                 </svg>
                             </div>
                             <h2 className="text-lg text-brand font-medium title-font mb-2">
-                                The Catalyzer
+                                Preço razoável
                             </h2>
                             <p className="leading-relaxed text-base">
                                 Fingerstache flexitarian street art 8-bit waist
@@ -81,7 +81,7 @@ const Services = () => {
                                 </svg>
                             </div>
                             <h2 className="text-lg text-brand font-medium title-font mb-2">
-                                Neptune
+                                Sem prazos perdidos
                             </h2>
                             <p className="leading-relaxed text-base">
                                 Fingerstache flexitarian street art 8-bit waist
@@ -105,7 +105,7 @@ const Services = () => {
                                 </svg>
                             </div>
                             <h2 className="text-lg text-brand font-medium title-font mb-2">
-                                Melanchole
+                                Feedback rápido
                             </h2>
                             <p className="leading-relaxed text-base">
                                 Fingerstache flexitarian street art 8-bit waist
@@ -129,7 +129,7 @@ const Services = () => {
                                 </svg>
                             </div>
                             <h2 className="text-lg text-brand font-medium title-font mb-2">
-                                Bunker
+                                Abordagem Individual
                             </h2>
                             <p className="leading-relaxed text-base">
                                 Fingerstache flexitarian street art 8-bit waist
@@ -153,7 +153,7 @@ const Services = () => {
                                 </svg>
                             </div>
                             <h2 className="text-lg text-brand font-medium title-font mb-2">
-                                Ramona Falls
+                                Equipe Dedicada
                             </h2>
                             <p className="leading-relaxed text-base">
                                 Fingerstache flexitarian street art 8-bit waist

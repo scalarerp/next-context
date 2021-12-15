@@ -23,8 +23,8 @@ const SunSvg = (props: svgProps): JSX.Element => {
                     attributeName="transform"
                     type="rotate"
                     from="0"
-                    to="360"
-                    dur="0.5s"
+                    to="180"
+                    dur="0.3s"
                     repeatCount="1"
                 />
             </svg>
