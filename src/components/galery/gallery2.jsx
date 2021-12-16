@@ -19,8 +19,8 @@ const Gallery2 = () => {
                                 src={item.image.src}
                                 alt="index"
                                 layout="responsive"
-                                width={800}
-                                height={400}
+                                width={800} //===w-80
+                                height={400} //===w-40
                                 // objectFit="none"
                                 objectFit="cover"
                             />
