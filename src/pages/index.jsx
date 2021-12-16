@@ -1,18 +1,19 @@
-import Galery from 'components/galery'
-import Gallery from 'components/galery/gallery'
-import Gallery2 from 'components/galery/gallery2'
+import React from 'react'
+
 import Hero from 'components/herosection'
 import Services from 'components/services'
-import React from 'react'
+
+import Gallery2 from 'components/gallery/gallery2'
+import Gallery from 'components/gallery/gallery'
+
+import { galleryImages } from 'galleries'
 
 function Index() {
     return (
         <>
             <Hero />
-
+            <Gallery2 galleryImages={galleryImages} />
             <Services />
-            <Galery />
-            <Gallery2 />
             <Gallery />
         </>
     )

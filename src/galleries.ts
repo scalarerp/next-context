@@ -8,7 +8,7 @@ import Work7 from 'assets/images/work-7.jpg'
 import Work8 from 'assets/images/work-8.jpg'
 import Work9 from 'assets/images/work-9.jpg'
 
-export const galleryImages = [
+export const galleryImages: GalleryImage[] = [
     { image: Work1, title: 'Work 1', description: 'work1 description' },
     { image: Work2, title: 'Work 2', description: 'work2 description' },
     { image: Work3, title: 'Work 3', description: 'work3 description' },
@@ -19,3 +19,9 @@ export const galleryImages = [
     { image: Work8, title: 'Work 8', description: 'work8 description' },
     { image: Work9, title: 'Work 9', description: 'work9 description' },
 ]
+
+export interface GalleryImage {
+    image: StaticImageData
+    title: string
+    description: string
+}
