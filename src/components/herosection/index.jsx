@@ -1,8 +1,10 @@
 import Link from 'next/link'
 import React from 'react'
-import Img1 from 'assets/images/Seo.jpg'
+// import Img1 from 'assets/images/Seo.jpg'
+import Img from 'assets/images/pexels-mike-3820181.jpg'
 
-import styles from './index.module.scss'
+// import styles from './index.module.scss'
+import Image from 'next/image'
 
 const Hero = () => {
     return (
@@ -10,10 +12,12 @@ const Hero = () => {
             <section className="text-gray-600 body-font">
                 <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
                     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-                        <img
+                        <Image
                             className="object-cover object-center rounded "
                             alt="hero"
-                            src={Img1.src}
+                            src={Img.src}
+                            width={Img.width}
+                            height={Img.height}
                         />
                     </div>
                     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
@@ -41,6 +45,44 @@ const Hero = () => {
                                 </a>
                             </Link>
                         </div>
+                    </div>
+                </div>
+                <div className="p-5 relative  text-justify columns-1 sm:columns-2 lg:columns-3 ">
+                    <div className="p-3">
+                        <img
+                            className="w-80 h-40 rounded-lg shadow-xl bg-white"
+                            src="https://images.unsplash.com/photo-1604999565976-8913ad2ddb7c?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=320&amp;h=160&amp;q=80"
+                        />
+                    </div>
+                    <div className="p-3">
+                        <img
+                            className="w-80 h-40 rounded-lg shadow-xl bg-white"
+                            src="https://images.unsplash.com/photo-1540206351-d6465b3ac5c1?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=320&amp;h=160&amp;q=80"
+                        />
+                    </div>
+                    <div className="p-3">
+                        <img
+                            className="w-80 h-40 rounded-lg shadow-xl bg-white"
+                            src="https://images.unsplash.com/photo-1622890806166-111d7f6c7c97?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=320&amp;h=160&amp;q=80"
+                        />
+                    </div>
+                    <div className="p-3">
+                        <img
+                            className="w-80 h-40 rounded-lg shadow-xl bg-white"
+                            src="https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=320&amp;h=160&amp;q=80"
+                        />
+                    </div>
+                    <div className="p-3">
+                        <img
+                            className="w-80 h-40 rounded-lg shadow-xl bg-white"
+                            src="https://images.unsplash.com/photo-1575424909138-46b05e5919ec?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=320&amp;h=160&amp;q=80"
+                        />
+                    </div>
+                    <div className="p-3">
+                        <img
+                            className="w-80 h-40 rounded-lg shadow-xl bg-white"
+                            src="https://images.unsplash.com/photo-1559333086-b0a56225a93c?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=320&amp;h=160&amp;q=80"
+                        />
                     </div>
                 </div>
             </section>
