@@ -5,7 +5,13 @@ import '../styles/globals.scss'
 
 function MyApp({ Component, pageProps }) {
     return (
-        <ThemeProvider attribute="class" defaultTheme="system">
+        <ThemeProvider
+            storageKey="scalarTheme"
+            attribute="class"
+            enableSystem={false}
+            themes={['light', 'dark']}
+            defaultTheme="dark"
+        >
             <Header />
             <Component {...pageProps} />
         </ThemeProvider>
