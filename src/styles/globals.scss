@@ -45,6 +45,9 @@ a {
     .bg-alt {
         @apply bg-gray-200 dark:bg-gray-700;
     }
+    .bg-gradient-inverse {
+        @apply bg-gradient-to-tl from-blue-400 via-purple-400 to-orange-300 dark:bg-gradient-to-tl;
+    }
 
     .bg-inverse {
         @apply bg-black dark:bg-white;
@@ -77,5 +80,14 @@ a {
     }
     .bg-nav {
         @apply dark:bg-gray-900 bg-white;
+    }
+    .text-bronze {
+        @apply text-orange-400 dark:text-orange-400;
+    }
+    .text-prata {
+        @apply text-neutral-500 dark:text-neutral-400;
+    }
+    .text-ouro {
+        @apply text-yellow-500 dark:text-yellow-400;
     }
 }

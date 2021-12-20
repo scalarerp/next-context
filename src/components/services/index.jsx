@@ -2,13 +2,13 @@ import React from 'react'
 
 const Services = () => {
     return (
-        <section className="text-current body-font">
-            <div className="container px-5 py-24 mx-auto">
+        <section className="text-current body-font bg-inverse">
+            <div className="container px-5 pb-14 pt-8 mx-auto">
                 <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
                     <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-brand">
                         Serviços
                     </h1>
-                    <p className="lg:w-1/2 w-full leading-relaxed text-primary">
+                    <p className="lg:w-1/2 w-full leading-relaxed text-inverse">
                         Whatever cardigan tote bag tumblr hexagon brooklyn
                         asymmetrical gentrify, subway tile poke farm-to-table.
                     </p>
@@ -32,7 +32,7 @@ const Services = () => {
                             <h2 className="text-lg text-brand font-medium title-font mb-2">
                                 Garantia de Resultado
                             </h2>
-                            <p className="leading-relaxed text-base">
+                            <p className="leading-relaxed text-base text-inverse">
                                 Fingerstache flexitarian street art 8-bit waist
                                 co, subway tile poke farm.
                             </p>
@@ -58,7 +58,7 @@ const Services = () => {
                             <h2 className="text-lg text-brand font-medium title-font mb-2">
                                 Preço razoável
                             </h2>
-                            <p className="leading-relaxed text-base">
+                            <p className="leading-relaxed text-base text-inverse">
                                 Fingerstache flexitarian street art 8-bit waist
                                 co, subway tile poke farm.
                             </p>
@@ -83,7 +83,7 @@ const Services = () => {
                             <h2 className="text-lg text-brand font-medium title-font mb-2">
                                 Sem prazos perdidos
                             </h2>
-                            <p className="leading-relaxed text-base">
+                            <p className="leading-relaxed text-base text-inverse">
                                 Fingerstache flexitarian street art 8-bit waist
                                 co, subway tile poke farm.
                             </p>
@@ -107,7 +107,7 @@ const Services = () => {
                             <h2 className="text-lg text-brand font-medium title-font mb-2">
                                 Feedback rápido
                             </h2>
-                            <p className="leading-relaxed text-base">
+                            <p className="leading-relaxed text-base text-inverse">
                                 Fingerstache flexitarian street art 8-bit waist
                                 co, subway tile poke farm.
                             </p>
@@ -131,7 +131,7 @@ const Services = () => {
                             <h2 className="text-lg text-brand font-medium title-font mb-2">
                                 Abordagem Individual
                             </h2>
-                            <p className="leading-relaxed text-base">
+                            <p className="leading-relaxed text-base text-inverse">
                                 Fingerstache flexitarian street art 8-bit waist
                                 co, subway tile poke farm.
                             </p>
@@ -155,7 +155,7 @@ const Services = () => {
                             <h2 className="text-lg text-brand font-medium title-font mb-2">
                                 Equipe Dedicada
                             </h2>
-                            <p className="leading-relaxed text-base">
+                            <p className="leading-relaxed text-base text-inverse">
                                 Fingerstache flexitarian street art 8-bit waist
                                 co, subway tile poke farm.
                             </p>

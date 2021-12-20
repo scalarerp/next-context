@@ -1,9 +1,12 @@
+import Header from 'common/header'
+import Form from 'components/Contact'
 import React from 'react'
 
 const contact = () => {
     return (
         <div>
-            <h1>contato</h1>
+            <Header />
+            <Form />
         </div>
     )
 }

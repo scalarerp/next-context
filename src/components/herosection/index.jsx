@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 // import Img1 from 'assets/images/Seo.jpg'
-import Img from 'assets/images/pexels-mike-3820181.jpg'
+import Img from 'assets/images/hero.png'
 
 // import styles from './index.module.scss'
 import Image from 'next/image'
@@ -9,18 +9,16 @@ import Image from 'next/image'
 const Hero = () => {
     return (
         <>
-            <section className="text-gray-600 body-font">
-                <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-                    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-                        <Image
-                            className="object-cover object-center rounded "
+            <section className="text-gray-600 body-font pt-10 flex items-center">
+                <div className="container mx-auto grid px-5 py-24 md:flex-row lg:grid-cols-2 items-center">
+                    <div className="mt-24">
+                        <img
+                            className="object-cover object-center rounded xl:w-[1200px] lg:mb-0 mb-8"
                             alt="hero"
                             src={Img.src}
-                            width={Img.width}
-                            height={Img.height}
                         />
                     </div>
-                    <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                    <div className="lg:flex-grow  lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center  ">
                         <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-brand font-poppins">
                             Uma empresa especializada
                             <br className="hidden lg:inline-block" />
@@ -34,7 +32,7 @@ const Hero = () => {
                             hexagon try-hard chambray.
                         </p>
                         <div className="flex justify-center">
-                            <Link href="/about">
+                            <Link href="#">
                                 <a className="inline-flex text-white bg-brand border-0 py-2 px-6 focus:outline-none hover:opacity-80 transform hover:scale-110 duration-300 rounded text-md">
                                     SAIBA MAIS
                                 </a>

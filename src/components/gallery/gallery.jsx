@@ -5,7 +5,7 @@ import { galleryImages } from 'galleries'
 
 const Gallery = () => {
     return (
-        <div>
+        <div className="pt-8 pb-8">
             <div className="flex justify-center sm:text-3xl text-2xl font-medium title-font mb-8 text-brand">
                 <h1>Nosso Trabalho</h1>
                 {/* <pre>{JSON.stringify(imageList2, null, 2)}</pre> */}
@@ -20,12 +20,10 @@ const Gallery = () => {
                             <Image
                                 src={item.image.src}
                                 alt="index"
-                                layout="responsive"
+                                // layout="responsive"
                                 width={item.image.width}
                                 height={item.image.height}
                             />
-                            <h1>{item.title}</h1>
-                            <p>{item.description}</p>
                         </div>
                     )
                 })}

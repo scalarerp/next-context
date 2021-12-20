@@ -6,7 +6,7 @@ export const navLinks: NavLink[] = [
     },
     {
         name: 'Sobre',
-        href: '/about',
+        href: '#',
         className: '',
     },
 
