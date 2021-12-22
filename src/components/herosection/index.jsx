@@ -5,19 +5,22 @@ import Img from 'assets/images/hero.png'
 
 // import styles from './index.module.scss'
 import Image from 'next/image'
+import { MotionInView, varScaleInY } from 'components/animate'
 
 const Hero = () => {
     return (
         <>
             <section className="text-gray-600 body-font pt-10 flex items-center">
                 <div className="container mx-auto grid px-5 py-24 md:flex-row lg:grid-cols-2 items-center">
-                    <div className="mt-24">
-                        <img
-                            className="object-cover object-center rounded xl:w-[1200px] lg:mb-0 mb-8"
-                            alt="hero"
-                            src={Img.src}
-                        />
-                    </div>
+                    <MotionInView variants={varScaleInY}>
+                        <div className="mt-24">
+                            <img
+                                className="object-cover object-center rounded xl:w-[1200px] lg:mb-0 mb-8"
+                                alt="hero"
+                                src={Img.src}
+                            />
+                        </div>
+                    </MotionInView>
                     <div className="lg:flex-grow  lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center  ">
                         <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-brand font-poppins">
                             Uma empresa especializada

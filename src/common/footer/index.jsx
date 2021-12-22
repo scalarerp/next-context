@@ -1,4 +1,3 @@
-import AppLogo from 'common/logo'
 import Link from 'next/link'
 import React from 'react'
 
@@ -14,9 +13,7 @@ const Footer = () => {
                                     <a
                                         href="#"
                                         className="text-xl font-bold text-gray-800 dark:text-white hover:text-gray-700 dark:hover:text-gray-300"
-                                    >
-                                        <AppLogo />
-                                    </a>
+                                    ></a>
                                 </div>
 
                                 <p className="max-w-md mt-2 text-gray-500 dark:text-gray-400">
