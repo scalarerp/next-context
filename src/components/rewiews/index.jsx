@@ -5,15 +5,11 @@ import Img3 from 'assets/images/pic-3.png'
 
 const Rewiews = () => {
     return (
-        <div className="mt-10 bg-gradient-inverse pt-8">
-            <div className="flex justify-center font-poppins sm:text-3xl text-2xl font-medium title-font mt-8 text-brand">
-                <h1>Nosso time</h1>
-                {/* <pre>{JSON.stringify(imageList2, null, 2)}</pre> */}
-            </div>
-            <section className="text-inverse body-font">
-                <div className="container px-5 py-24 mx-auto">
-                    <div className="flex flex-wrap -m-4 justify-around">
-                        <div className="lg:w-1/3 lg:mb-0 mb-6 p-4 max-w-xs">
+        <div className="mt-24  pt-8">
+            <section className="text-inverse  bg-gradient-inverse">
+                <div className="container px-5 py-20  mx-auto">
+                    <div className="grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1">
+                        <div className=" xl:transform xl:-translate-y-40 xl:-mb-32 mb-32 px-12  py-8 lg:max-w-sm bg-inverse-opacity rounded-md">
                             <div className="h-full lg:text-right text-center">
                                 <div className="flex lg:justify-between lg:text-right text-center justify-center">
                                     <img
@@ -23,7 +19,7 @@ const Rewiews = () => {
                                     />
                                     <div className=" lg:ml-0 ml-8">
                                         <div>
-                                            <h2 className="text-secondary font-medium title-font tracking-wider text-sm">
+                                            <h2 className="text-brand-inverse font-medium title-font tracking-wider text-sm">
                                                 HOLDEN CAULFIELD
                                             </h2>
                                         </div>
@@ -45,7 +41,7 @@ const Rewiews = () => {
                                 <span className="inline-block h-1 w-10 rounded bg-brand mt-6 mb-4"></span>
                             </div>
                         </div>
-                        <div className="lg:w-1/3 lg:mb-0 mb-6 p-4 max-w-xs">
+                        <div className=" xl:transform xl:-translate-y-28 xl:-mb-32 mb-32 px-12  py-8 lg:max-w-sm bg-inverse-opacity rounded-md">
                             <div className="h-full lg:text-right text-center">
                                 <div className="flex lg:justify-between lg:text-right text-center justify-center">
                                     <img
@@ -54,7 +50,7 @@ const Rewiews = () => {
                                         alt="testimonial"
                                     />
                                     <div className="lg:ml-0 ml-8">
-                                        <h2 className="text-secondary font-medium title-font tracking-wider text-sm">
+                                        <h2 className="text-brand-inverse font-medium title-font tracking-wider text-sm">
                                             ALPER KAMU
                                         </h2>
                                         <p className="text-inverse">
@@ -73,7 +69,7 @@ const Rewiews = () => {
                                 <span className="inline-block h-1 w-10 rounded bg-brand mt-6 mb-4"></span>
                             </div>
                         </div>
-                        <div className="lg:w-1/3 lg:mb-0 p-4 max-w-xs">
+                        <div className=" xl:-mb-32 px-12  xl:transform xl:-translate-y-40 py-8 lg:max-w-sm bg-inverse-opacity rounded-md">
                             <div className="h-full lg:text-right text-center">
                                 <div className="flex lg:justify-between lg:text-right text-center justify-center">
                                     <img
@@ -82,7 +78,7 @@ const Rewiews = () => {
                                         src={Img3.src}
                                     />
                                     <div className="lg:ml-0 ml-8">
-                                        <h2 className="text-secondary font-medium title-font tracking-wider text-sm">
+                                        <h2 className="text-brand font-medium title-font tracking-wider text-sm">
                                             HENRY LETHAM
                                         </h2>
                                         <p className="text-inverse">CTO</p>

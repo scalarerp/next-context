@@ -31,6 +31,8 @@ module.exports = {
                 primary: 'var(--color-red-500)',
                 brand: 'var(--brand)',
                 lightBrand: 'var(--light-brand)',
+                inverseOpacity: 'var(--bg-inverse-opacity)',
+
                 gray: {
                     100: 'var(--color-gray-100)',
                     200: 'var(--color-gray-200)',

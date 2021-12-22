@@ -46,9 +46,11 @@ a {
         @apply bg-gray-200 dark:bg-gray-700;
     }
     .bg-gradient-inverse {
-        @apply bg-gradient-to-tl from-blue-400 via-purple-400 to-orange-300 dark:bg-gradient-to-tl;
+        @apply bg-gradient-to-br from-blue-600  via-purple-500 to-orange-500;
     }
-
+    .bg-inverse-opacity {
+        @apply bg-gray-900 dark:bg-gray-100;
+    }
     .bg-inverse {
         @apply bg-black dark:bg-white;
     }
@@ -71,7 +73,12 @@ a {
     .text-secondary {
         @apply dark:text-blueGray-500 text-gray-500;
     }
-
+    .text-brand-inverse {
+        @apply text-brand dark:text-brand;
+    }
+    ::selection {
+        @apply bg-brand text-white;
+    }
     .text-inverse {
         @apply dark:text-black text-white;
     }
