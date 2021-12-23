@@ -1,3 +1,4 @@
+import AppLogo from 'common/logo'
 import Link from 'next/link'
 import React from 'react'
 
@@ -9,12 +10,7 @@ const Footer = () => {
                     <div className="lg:flex justify-between">
                         <div className="w-full -mx-6 lg:w-2/5">
                             <div className="px-6">
-                                <div>
-                                    <a
-                                        href="#"
-                                        className="text-xl font-bold text-gray-800 dark:text-white hover:text-gray-700 dark:hover:text-gray-300"
-                                    ></a>
-                                </div>
+                                <AppLogo />
 
                                 <p className="max-w-md mt-2 text-gray-500 dark:text-gray-400">
                                     Join 31,000+ other and never miss out on new

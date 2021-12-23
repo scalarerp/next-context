@@ -1,12 +1,16 @@
+import Footer from 'common/footer'
 import Header from 'common/header'
-import Form from 'components/Contact'
+import AppForm from 'components/Contact'
+import Services from 'components/services'
 import React from 'react'
 
 const contact = () => {
     return (
         <div>
             <Header />
-            <Form />
+            <AppForm />
+            <Services />
+            <Footer />
         </div>
     )
 }

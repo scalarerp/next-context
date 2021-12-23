@@ -14,9 +14,9 @@ const Services = () => {
                         asymmetrical gentrify, subway tile poke farm-to-table.
                     </p>
                 </div>
-                <div className="flex flex-wrap -m-4">
+                <div className="grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1">
                     <MotionInView variants={varScaleInX}>
-                        <div className="xl:w-1/3 md:w-1/2 p-4">
+                        <div className="p-4">
                             <div className="border border-gray-200 p-6 rounded-lg">
                                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-lightBrand text-brand transform hover:rotate-[360deg] duration-500 hover:scale-125 mb-4">
                                     <svg
@@ -42,7 +42,7 @@ const Services = () => {
                         </div>
                     </MotionInView>
                     <MotionInView variants={varScaleInX}>
-                        <div className="xl:w-1/3 md:w-1/2 p-4">
+                        <div className="p-4">
                             <div className="border border-gray-200 p-6 rounded-lg">
                                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-lightBrand text-brand transform hover:rotate-[360deg] duration-500 hover:scale-125 mb-4">
                                     <svg
@@ -70,7 +70,7 @@ const Services = () => {
                         </div>
                     </MotionInView>
                     <MotionInView variants={varScaleInX}>
-                        <div className="xl:w-1/3 md:w-1/2 p-4">
+                        <div className="p-4">
                             <div className="border border-gray-200 p-6 rounded-lg">
                                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-lightBrand text-brand transform hover:rotate-[360deg] duration-500 hover:scale-125 mb-4">
                                     <svg
@@ -97,7 +97,7 @@ const Services = () => {
                         </div>
                     </MotionInView>
                     <MotionInView variants={varScaleInX}>
-                        <div className="xl:w-1/3 md:w-1/2 p-4">
+                        <div className="p-4">
                             <div className="border border-gray-200 p-6 rounded-lg">
                                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-lightBrand text-brand transform hover:rotate-[360deg] duration-500 hover:scale-125 mb-4">
                                     <svg
@@ -123,7 +123,7 @@ const Services = () => {
                         </div>
                     </MotionInView>
                     <MotionInView variants={varScaleInX}>
-                        <div className="xl:w-1/3 md:w-1/2 p-4">
+                        <div className="p-4">
                             <div className="border border-gray-200 p-6 rounded-lg">
                                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-lightBrand text-brand transform hover:rotate-[360deg] duration-500 hover:scale-125 mb-4">
                                     <svg
@@ -149,7 +149,7 @@ const Services = () => {
                         </div>
                     </MotionInView>
                     <MotionInView variants={varScaleInX}>
-                        <div className="xl:w-1/3 md:w-1/2 p-4">
+                        <div className="p-4">
                             <div className="border border-gray-200 p-6 rounded-lg">
                                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-lightBrand text-brand transform hover:rotate-[360deg] duration-500 hover:scale-125 mb-4">
                                     <svg

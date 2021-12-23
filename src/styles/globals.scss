@@ -61,7 +61,9 @@ a {
     .border-primary {
         @apply border-gray-900 dark:border-white;
     }
-
+    .border-form {
+        @apply border-brand;
+    }
     .border-secondary {
         @apply border-gray-200 dark:border-gray-600;
     }
