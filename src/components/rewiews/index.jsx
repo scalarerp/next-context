@@ -2,6 +2,7 @@ import React from 'react'
 import Img1 from 'assets/images/pic-1.png'
 import Img2 from 'assets/images/pic-2.png'
 import Img3 from 'assets/images/pic-3.png'
+import ImageAvatar from 'components/imageAvatar'
 
 const Rewiews = () => {
     return (
@@ -12,10 +13,10 @@ const Rewiews = () => {
                         <div className=" xl:transform xl:-translate-y-40 xl:-mb-32 mb-32 px-12  py-8 lg:max-w-sm bg-inverse-opacity rounded-md">
                             <div className="h-full lg:text-right text-center">
                                 <div className="flex lg:justify-between lg:text-right text-center justify-center">
-                                    <img
+                                    <ImageAvatar
                                         alt="testimonial"
-                                        className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block "
-                                        src={Img1.src}
+                                        className="w-20 h-20  object-cover object-center rounded-full inline-block "
+                                        image={Img1}
                                     />
                                     <div className=" lg:ml-0 ml-8">
                                         <div>
@@ -30,7 +31,7 @@ const Rewiews = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <p className="leading-relaxed font-poppins">
+                                <p className="leading-relaxed font-poppins mt-4">
                                     Edison bulb retro cloud bread echo park,
                                     helvetica stumptown taiyaki taxidermy 90s
                                     cronut +1 kinfolk. Single-origin coffee
@@ -44,9 +45,9 @@ const Rewiews = () => {
                         <div className=" xl:transform xl:-translate-y-28 xl:-mb-32 mb-32 px-12  py-8 lg:max-w-sm bg-inverse-opacity rounded-md">
                             <div className="h-full lg:text-right text-center">
                                 <div className="flex lg:justify-between lg:text-right text-center justify-center">
-                                    <img
+                                    <ImageAvatar
                                         className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block "
-                                        src={Img2.src}
+                                        image={Img2}
                                         alt="testimonial"
                                     />
                                     <div className="lg:ml-0 ml-8">
@@ -58,9 +59,9 @@ const Rewiews = () => {
                                         </p>
                                     </div>
                                 </div>
-                                <p className="leading-relaxed font-poppins">
+                                <p className="leading-relaxed font-poppins mt-4">
                                     Edison bulb retro cloud bread echo park,
-                                    helvetica stumptown taiyaki taxidermy 90's
+                                    helvetica stumptown taiyaki taxidermy 90s
                                     cronut +1 kinfolk. Single-origin coffee
                                     ennui shaman taiyaki vape DIY tote bag
                                     drinking vinegar cronut adaptogen squid
@@ -72,10 +73,10 @@ const Rewiews = () => {
                         <div className=" xl:-mb-32 px-12  xl:transform xl:-translate-y-40 py-8 lg:max-w-sm bg-inverse-opacity rounded-md">
                             <div className="h-full lg:text-right text-center">
                                 <div className="flex lg:justify-between lg:text-right text-center justify-center">
-                                    <img
+                                    <ImageAvatar
                                         alt="testimonial"
                                         className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block "
-                                        src={Img3.src}
+                                        image={Img3}
                                     />
                                     <div className="lg:ml-0 ml-8">
                                         <h2 className="text-brand font-medium title-font tracking-wider text-sm">
@@ -84,9 +85,9 @@ const Rewiews = () => {
                                         <p className="text-inverse">CTO</p>
                                     </div>
                                 </div>
-                                <p className="leading-relaxed font-poppins">
+                                <p className="leading-relaxed font-poppins mt-4">
                                     Edison bulb retro cloud bread echo park,
-                                    helvetica stumptown taiyaki taxidermy 90's
+                                    helvetica stumptown taiyaki taxidermy 90s
                                     cronut +1 kinfolk. Single-origin coffee
                                     ennui shaman taiyaki vape DIY tote bag
                                     drinking vinegar cronut adaptogen squid

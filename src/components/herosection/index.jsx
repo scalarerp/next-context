@@ -4,8 +4,9 @@ import React from 'react'
 import Img from 'assets/images/hero.png'
 
 // import styles from './index.module.scss'
-import Image from 'next/image'
+
 import { MotionInView, varScaleInY } from 'components/animate'
+import Image from 'next/image'
 
 const Hero = () => {
     return (
@@ -14,10 +15,10 @@ const Hero = () => {
                 <div className="container mx-auto grid px-5 py-24 md:flex-row lg:grid-cols-2 items-center">
                     <MotionInView variants={varScaleInY}>
                         <div className="mt-24">
-                            <img
+                            <Image
                                 className="object-cover object-center rounded xl:w-[1200px] lg:mb-0 mb-8"
                                 alt="hero"
-                                src={Img.src}
+                                src={Img}
                             />
                         </div>
                     </MotionInView>

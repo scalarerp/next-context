@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 import { pricingCards } from 'CardsPricing'
 import Link from 'next/link'
 

@@ -9,6 +9,8 @@ import Work7 from 'assets/images/work-7.jpg'
 import Work8 from 'assets/images/work-8.jpg'
 import Work9 from 'assets/images/work-9.jpg'
 
+import ImageFit from 'components/imageFit/imageFit'
+
 const Galery = () => {
     return (
         <div>
@@ -17,64 +19,64 @@ const Galery = () => {
             </div>
             <section className=" lg:columns-3 md:columns-2 gap-3 xl:w-[1200px] mx-auto  space-y-3 pb-28">
                 <div className="transform hover:scale-95 duration-300">
-                    <img
-                        src={Work1.src}
+                    <ImageFit
+                        image={Work1}
                         alt="work"
                         className="rounded-md transform hover:opacity-80 "
                     />
                 </div>
                 <div className="transform hover:scale-95 duration-300">
-                    <img
-                        src={Work2.src}
+                    <ImageFit
+                        image={Work2}
                         alt="work"
                         className="rounded-md transform hover:opacity-80 "
                     />
                 </div>
                 <div className="transform hover:scale-95 duration-300">
-                    <img
-                        src={Work3.src}
+                    <ImageFit
+                        src={Work3}
                         alt="work"
                         className="rounded-md transform hover:opacity-80 "
                     />
                 </div>
                 <div className="transform hover:scale-95 duration-300">
-                    <img
-                        src={Work4.src}
+                    <ImageFit
+                        image={Work4}
                         alt="work"
                         className="rounded-md transform hover:opacity-80 "
                     />
                 </div>
                 <div className="transform hover:scale-95 duration-300">
-                    <img
-                        src={Work5.src}
+                    <ImageFit
+                        src={Work5}
                         alt="work"
                         className="rounded-md transform hover:opacity-80 "
                     />
                 </div>
                 <div className="transform hover:scale-95 duration-300">
-                    <img
-                        src={Work6.src}
+                    <ImageFit
+                        src={Work6}
                         alt="work"
                         className="rounded-md transform hover:opacity-80 "
                     />
                 </div>
                 <div className="transform hover:scale-95 duration-300">
-                    <img
-                        src={Work7.src}
+                    <ImageFit
+                        src={Work7}
                         alt="work"
                         className="rounded-md transform hover:opacity-80 "
                     />
                 </div>
                 <div className="transform hover:scale-95 duration-300">
-                    <img
-                        src={Work8.src}
+                    <ImageFit
+                        src={Work8}
                         alt="work"
                         className="rounded-md transform hover:opacity-80 "
                     />
                 </div>
                 <div className="transform hover:scale-95 duration-300">
-                    <img
-                        src={Work9.src}
+                    <ImageFit
+                        src={Work9}
                         alt="work"
                         className="rounded-md transform hover:opacity-80 "
                     />

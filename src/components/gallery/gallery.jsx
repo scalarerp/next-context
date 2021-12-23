@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Image from 'next/image'
 import { galleryImages } from 'galleries'
+import ImageFit from 'components/imageFit'
 
 const Gallery = () => {
     return (
@@ -17,8 +17,8 @@ const Gallery = () => {
                             className="transform hover:scale-95 duration-300 w-full h-full "
                             key={index}
                         >
-                            <Image
-                                src={item.image.src}
+                            <ImageFit
+                                image={item.image}
                                 alt="index"
                                 // layout="responsive"
                                 width={item.image.width}
