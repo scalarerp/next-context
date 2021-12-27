@@ -1,28 +1,13 @@
-import AppLogo from 'common/logo'
-import Nav from 'common/nav'
-import ThemeSwitcher from 'common/themeSwitcher'
 import React from 'react'
 
-const Header = () => {
-    // let menu = document.querySelector("#menu-btn");
-    // let navbar = document.querySelector(".header .navbar");
-
-    // menu.onclick = () => {
-    //   menu.classList.toggle("fa-times");
-    //   navbar.classList.toggle("active");
-    // };
-
+const AppHeader = () => {
     return (
-        <header
-            className={`header md:border-b-2 md:border-section flex items-center justify-between p-8 fixed w-full bg-primary z-50`}
-        >
-            <AppLogo />
-            <div className="flex items-center">
-                <Nav />
-                <ThemeSwitcher />
+        <header className="bg-gradient-to-r from-gray-800 via-blue-800 to-blue-500 py-7 flex justify-between">
+            <div>
+                <h1>Surfbot</h1>
             </div>
         </header>
     )
 }
 
-export default Header
+export default AppHeader

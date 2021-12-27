@@ -78,9 +78,7 @@ a {
     .text-brand-inverse {
         @apply text-brand dark:text-brand;
     }
-    ::selection {
-        @apply bg-brand text-white;
-    }
+
     .text-inverse {
         @apply dark:text-black text-white;
     }
