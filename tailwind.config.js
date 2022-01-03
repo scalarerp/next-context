@@ -14,6 +14,9 @@ module.exports = {
         fontFamily: {
             // ...defaultTheme.fontFamily,
             poppins: ['Poppins'],
+            MoonDance: ['Moon Dance'],
+            IntoLight: ['Shadows Into Light'],
+            SourceSerif: ['Source Serif 4'],
             // mono: ['Menlo,Monaco', ...defaultTheme.fontFamily.mono],
             // display: [
             //     'Gilroy,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica Neue,Arial,sans-serif',

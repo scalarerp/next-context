@@ -11,13 +11,14 @@ class MyDocument extends Document {
             <Html lang="pt-br">
                 <Head>
                     <link
-                        href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-                        rel="stylesheet"
+                        rel="preconnect"
+                        href="https://fonts.gstatic.com"
+                        crossOrigin="true"
                     />
                     <link
-                        rel="preconnect"
-                        href="https://fonts.googleapis.com"
-                    />
+                        href="https://fonts.googleapis.com/css2?family=Moon+Dance&family=Poppins&family=Shadows+Into+Light&family=Source+Serif+4&display=swap"
+                        rel="stylesheet"
+                    ></link>
                 </Head>
                 <body>
                     <Main />
