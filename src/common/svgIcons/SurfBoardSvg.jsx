@@ -3,8 +3,8 @@ import React from 'react'
 const SurfBoardSvg = () => {
     return (
         <svg
-            width="83"
-            height="145"
+            width="70"
+            height="70"
             viewBox="0 0 83 145"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"

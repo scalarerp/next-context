@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import bgImg from 'components/Icons/bg-intro.jpg'
+import bgImg from 'assets/Icons/bg-intro.jpg'
 import Link from 'next/link'
 
 const Intro = () => {

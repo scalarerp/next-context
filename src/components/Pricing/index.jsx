@@ -9,20 +9,25 @@ const Pricing = () => {
                     Aulas
                 </h1>
             </div>
-            <div className=" grid grid-cols-3">
-                <div>
-                    <div>
-                        <SurfBoardSvg />
+            <div className="flex justify-center">
+                <div className=" grid xl:grid-cols-3 lg:grid-cols-2 mt-10">
+                    <div className="px-40 ml-10 relative  py-10 shadow-lg shadow-black">
+                        <div className="absolute -top-4 left-32">
+                            <SurfBoardSvg />
+                        </div>
+                        <h1 className="bg-white  font-poppins text-3xl">
+                            Infantil
+                        </h1>
                     </div>
-                </div>
-                <div>
-                    <div>
-                        <SurfBoardSvg />
+                    <div className="px-40 ml-10 relative lg:mt-0 mt-20 py-10 shadow-lg shadow-black">
+                        <div className="absolute -top-4 left-32">
+                            <SurfBoardSvg />
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <div>
-                        <SurfBoardSvg />
+                    <div className="px-40 ml-10 relative xl:mt-0 mt-20 py-10 shadow-lg shadow-black">
+                        <div className="absolute -top-4 left-32">
+                            <SurfBoardSvg />
+                        </div>
                     </div>
                 </div>
             </div>

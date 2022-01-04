@@ -1,5 +1,5 @@
 import React from 'react'
-import Img1 from 'components/Icons/foto-galeria.png'
+import Img1 from 'assets/Icons/foto-galeria.png'
 import Image from 'next/image'
 
 const Aula = () => {
