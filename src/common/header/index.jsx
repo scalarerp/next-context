@@ -4,7 +4,7 @@ import React from 'react'
 
 const AppHeader = () => {
     return (
-        <header className="shadow-md relative bg-gradient-to-r from-gray-800 via-blue-800 to-blue-500  lg:flex lg:justify-between lg:items-center">
+        <header className="shadow-md  relative z-50  bg-gradient-to-r from-gray-800 via-blue-800 to-blue-500  lg:flex lg:justify-between lg:items-center">
             <div className="lg:ml-20  flex justify-center">
                 <Link href="/">
                     <a>

@@ -1,3 +1,4 @@
+import Footer from 'common/footer'
 import FormSubmit from 'common/Form'
 import AppHeader from 'common/header'
 import Aula from 'components/Aula'
@@ -15,6 +16,7 @@ const index = () => {
             <Pricing />
             <Blockquote />
             <FormSubmit />
+            <Footer />
         </div>
     )
 }
