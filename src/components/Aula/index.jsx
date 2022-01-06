@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Aula = () => {
     return (
-        <div className="bg-gray-50">
+        <div className="bg-gray-50" id="Praia">
             {' '}
             <section>
                 <div className="flex justify-center mt-16">
